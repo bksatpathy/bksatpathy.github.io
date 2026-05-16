@@ -14,9 +14,9 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@bksatpathy">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Barada Kanta Satpathy","alternateName":"BK Satpathy","jobTitle":"Procurement Transformation Leader","url":"https://bksatpathy.com","email":"bksatpathy@live.in","telephone":"+919818293848","address":{"@type":"PostalAddress","addressLocality":"Bengaluru","addressCountry":"IN"},"sameAs":["https://www.linkedin.com/in/bksatpathy","https://x.com/bksatpathy","https://www.instagram.com/bksatpathy","https://www.facebook.com/share/1LqRdwkmcA/","https://www.threads.com/@bksatpathy"]}</script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","GA_MEASUREMENT_ID");</script>
-<script>(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","CLARITY_ID");</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-313447218"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-313447218");</script>
+<script>(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","CLARITY_ID") /* FREE at clarity.microsoft.com — sign in with bksatpathy@live.in */ /* Get free at clarity.microsoft.com — sign in with bksatpathy@live.in → New Project → Copy ID */;</script>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='4' fill='%231a2744'/><text y='68' x='8' font-size='52' fill='%23c4966e' font-family='Georgia,serif'>BK</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -36,7 +36,7 @@
   --rosebg:   rgba(196,150,110,0.10);
   --rosebr:   rgba(196,150,110,0.22);
 
-  --indigo:   #5c6bc0;   /* Life Path 7 — wisdom */
+  --indigo:   #5c6bc0;   /*  — wisdom */
   --indigo2:  #7986c9;
   --indigobg: rgba(92,107,192,0.10);
 
@@ -141,7 +141,7 @@ section{padding:6.5rem 3rem;}
   font-family:'Space Mono',monospace;font-size:9.5px;font-weight:700;
   letter-spacing:.22em;text-transform:uppercase;color:var(--rose);margin-bottom:1.25rem;
 }
-.eyebrow::before{content:'♎';font-size:12px;margin-right:2px;}
+.eyebrow::before{content:'';font-size:12px;margin-right:2px;}
 h1,h2,h3{font-family:'Cormorant Garamond',serif;font-weight:400;line-height:1.1;color:var(--ink);}
 h1{font-size:clamp(42px,6.5vw,82px);letter-spacing:-.02em;}
 h2{font-size:clamp(28px,4vw,50px);letter-spacing:-.015em;}
@@ -311,17 +311,36 @@ footer{background:var(--navy2);border-top:1px solid rgba(196,150,110,0.12);}
 @media(max-width:1024px){.ft-top{grid-template-columns:1fr 1fr;gap:2rem;}}
 @media(max-width:960px){section{padding:4.5rem 1.5rem;}.phero{padding:4rem 1.5rem 3rem;}.ft-top{padding:3rem 1.5rem;}.ft-bottom{padding:1.25rem 1.5rem;flex-direction:column;gap:.5rem;text-align:center;}.ai-inner{padding:1rem 1.5rem;}}
 @media(max-width:600px){.ft-top{grid-template-columns:1fr;}.chat-box{width:calc(100vw - 3rem);}}
+
+/* ── CHATBOT OVERRIDES ── */
+.chat-btn{
+  width:54px;height:54px;
+  background:var(--navy);
+  border:2px solid var(--rose);
+  border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  cursor:pointer;
+  box-shadow:0 4px 20px rgba(196,150,110,0.25),0 0 0 0 rgba(196,150,110,0.3);
+  animation:pulse 3s infinite;
+}
+@keyframes pulse{0%,100%{box-shadow:0 4px 20px rgba(196,150,110,0.25),0 0 0 0 rgba(196,150,110,0.3);}50%{box-shadow:0 4px 28px rgba(196,150,110,0.35),0 0 0 8px rgba(196,150,110,0);}}
+.chat-btn:hover{transform:scale(1.08);box-shadow:0 6px 28px rgba(196,150,110,0.4);}
+
+
+/* chat button pulse */
+@keyframes bkpulse{0%,100%{box-shadow:0 4px 20px rgba(196,150,110,0.25),0 0 0 0 rgba(196,150,110,0.3);}50%{box-shadow:0 6px 28px rgba(196,150,110,0.4),0 0 0 10px rgba(196,150,110,0);}}
+.chat-btn{animation:bkpulse 3s infinite;}
 </style>
 </head><body><nav class="nav" id="mainnav">
 <a href="index.html" class="nav-brand"><span class="nb-name">BK Satpathy</span><span class="nb-tag">Procurement Leader &amp; Consultant</span></a>
-<div class="nav-links"><a href="index.html" class="">Home</a><a href="about.html" class="">About</a><a href="experience.html" class="">Experience</a><a href="skills.html" class="">Skills</a><a href="achievements.html" class="">Impact</a><a href="testimonials.html" class="">Testimonials</a><a href="consulting.html" class="">Consulting</a><a href="links.html" class="active">Resources</a></div>
+<div class="nav-links"><a href="index.html" class="">Home</a><a href="about.html" class="">About</a><a href="experience.html" class="">Experience</a><a href="skills.html" class="">Skills</a><a href="achievements.html" class="">Impact</a><a href="testimonials.html" class="">Testimonials</a><a href="consulting.html" class="">Consulting</a><a href="blog.html" class="">Blog</a><a href="links.html" class="active">Resources</a></div>
 <div class="nav-right">
   <a href="consulting.html" class="nav-consult">Consulting ↗</a>
   <a href="contact.html" class="nav-hire">Let's Connect →</a>
 </div>
 <div class="hamburger" id="ham" onclick="toggleMenu()"><span></span><span></span><span></span></div>
 </nav>
-<div class="mob-nav" id="mobnav"><a href="index.html" class="">Home</a><a href="about.html" class="">About</a><a href="experience.html" class="">Experience</a><a href="skills.html" class="">Skills</a><a href="achievements.html" class="">Impact</a><a href="testimonials.html" class="">Testimonials</a><a href="consulting.html" class="">Consulting</a><a href="links.html" class="active">Resources</a>
+<div class="mob-nav" id="mobnav"><a href="index.html" class="">Home</a><a href="about.html" class="">About</a><a href="experience.html" class="">Experience</a><a href="skills.html" class="">Skills</a><a href="achievements.html" class="">Impact</a><a href="testimonials.html" class="">Testimonials</a><a href="consulting.html" class="">Consulting</a><a href="blog.html" class="">Blog</a><a href="links.html" class="active">Resources</a>
 <div style="display:flex;gap:8px;margin-top:1rem;">
   <a href="consulting.html" class="btn btn-ghost" style="flex:1;justify-content:center;padding:10px;">Consulting</a>
   <a href="contact.html" class="btn btn-rose" style="flex:1;justify-content:center;padding:10px;">Hire Me →</a>
@@ -339,7 +358,7 @@ footer{background:var(--navy2);border-top:1px solid rgba(196,150,110,0.12);}
 <div class="ft-top">
   <div>
     <div class="ft-name">BK Satpathy</div>
-    <p class="ft-desc">Procurement Transformation Leader &amp; Independent Consultant. Libra ♎ · Life Path 7 · 19+ years · ₹6Bn+ governed · Open globally.</p>
+    <p class="ft-desc">Procurement Transformation Leader &amp; Independent Consultant.  · 19+ years · ₹12Bn++ governed · Open globally.</p>
     <div style="margin-top:1.25rem;"><div style="display:flex;gap:7px;"><a href="https://www.linkedin.com/in/bksatpathy" target="_blank" rel="noopener" title="LinkedIn" style="width:32px;height:32px;border:1px solid rgba(196,150,110,0.15);display:flex;align-items:center;justify-content:center;color:rgba(232,213,183,0.5);transition:all .2s;border-radius:2px;" onmouseover="this.style.color='#c4966e';this.style.borderColor='rgba(196,150,110,0.4)'" onmouseout="this.style.color='rgba(232,213,183,0.5)';this.style.borderColor='rgba(196,150,110,0.15)'"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a><a href="https://x.com/bksatpathy" target="_blank" rel="noopener" title="X" style="width:32px;height:32px;border:1px solid rgba(196,150,110,0.15);display:flex;align-items:center;justify-content:center;color:rgba(232,213,183,0.5);transition:all .2s;border-radius:2px;" onmouseover="this.style.color='#c4966e';this.style.borderColor='rgba(196,150,110,0.4)'" onmouseout="this.style.color='rgba(232,213,183,0.5)';this.style.borderColor='rgba(196,150,110,0.15)'"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a><a href="https://www.instagram.com/bksatpathy" target="_blank" rel="noopener" title="Instagram" style="width:32px;height:32px;border:1px solid rgba(196,150,110,0.15);display:flex;align-items:center;justify-content:center;color:rgba(232,213,183,0.5);transition:all .2s;border-radius:2px;" onmouseover="this.style.color='#c4966e';this.style.borderColor='rgba(196,150,110,0.4)'" onmouseout="this.style.color='rgba(232,213,183,0.5)';this.style.borderColor='rgba(196,150,110,0.15)'"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a><a href="https://www.facebook.com/share/1LqRdwkmcA/" target="_blank" rel="noopener" title="Facebook" style="width:32px;height:32px;border:1px solid rgba(196,150,110,0.15);display:flex;align-items:center;justify-content:center;color:rgba(232,213,183,0.5);transition:all .2s;border-radius:2px;" onmouseover="this.style.color='#c4966e';this.style.borderColor='rgba(196,150,110,0.4)'" onmouseout="this.style.color='rgba(232,213,183,0.5)';this.style.borderColor='rgba(196,150,110,0.15)'"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a><a href="https://www.threads.com/@bksatpathy" target="_blank" rel="noopener" title="Threads" style="width:32px;height:32px;border:1px solid rgba(196,150,110,0.15);display:flex;align-items:center;justify-content:center;color:rgba(232,213,183,0.5);transition:all .2s;border-radius:2px;" onmouseover="this.style.color='#c4966e';this.style.borderColor='rgba(196,150,110,0.4)'" onmouseout="this.style.color='rgba(232,213,183,0.5)';this.style.borderColor='rgba(196,150,110,0.15)'"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M141.537 88.988a66.667 66.667 0 00-2.518-1.143c-1.482-27.307-16.403-42.94-41.457-43.1h-.34c-14.986 0-27.449 6.396-35.12 18.036l13.779 9.452c5.73-8.695 14.724-10.548 21.348-10.548h.229c8.249.053 14.474 2.452 18.503 7.129 2.932 3.405 4.893 8.111 5.864 14.05-7.314-1.243-15.224-1.626-23.68-1.14-23.82 1.371-39.134 15.264-38.105 34.568.522 9.792 5.4 18.216 13.735 23.719 6.997 4.718 16.008 7.031 25.393 6.516 12.36-.675 22.056-5.394 28.817-14.026 5.12-6.548 8.328-15.046 9.677-25.605 5.8 3.511 10.1 8.209 12.471 13.973 4.163 10.107 4.408 26.707-8.537 39.653-11.34 11.34-24.987 16.238-45.597 16.383-22.976-.16-40.348-7.512-51.62-21.857C27.073 137.25 21.23 118.32 21.012 96c.218-22.32 6.061-41.25 17.365-56.24C49.658 25.51 67.03 18.159 90.006 18h.34c23.062.158 40.469 7.496 51.69 21.82 5.499 6.972 9.437 15.53 11.78 25.482l16.156-4.023c-2.956-12.307-8.051-23.003-15.158-31.625C139.604 11.16 117.28 1.25 90.378 1.05L90 1.048l-.378.002C63.098 1.25 40.774 11.16 25.29 30.677 11.366 48.36 4.224 72.55 4.005 96v.072c.22 23.45 7.362 47.638 21.286 65.322 15.484 19.516 37.808 29.426 64.331 29.624h.378c.127 0 .254 0 .38-.002 23.17-.158 39.447-6.91 53.29-21.753 17.497-18.513 16.88-41.548 11.127-55.737-4.236-10.292-12.43-18.603-23.26-23.538zm-40.598 40.616c-10.438.569-21.283-4.098-21.801-14.146-.387-7.257 5.1-15.348 21.633-16.285 1.894-.109 3.758-.163 5.595-.163 6.225 0 12.076.606 17.337 1.765-1.973 24.593-12.977 28.27-22.764 28.829z"/></svg></a></div></div>
   </div>
   <div class="ft-col"><h5>Pages</h5>
@@ -376,44 +395,88 @@ footer{background:var(--navy2);border-top:1px solid rgba(196,150,110,0.12);}
 <div class="chat-widget" id="chatWidget">
 <div class="chat-box" id="chatBox">
   <div class="chat-head">
-    <div><div class="chat-head-title">Ask about BK</div><div class="chat-head-sub">Procurement AI Assistant</div></div>
-    <button class="chat-close" onclick="toggleChat()">×</button>
+    <div style="display:flex;align-items:center;gap:10px;">
+      <div style="width:36px;height:36px;background:linear-gradient(135deg,var(--rose),var(--rose2));border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',serif;font-size:16px;font-weight:600;color:var(--navy);flex-shrink:0;">BK</div>
+      <div><div class="chat-head-title">Ask BK Anything</div><div class="chat-head-sub">Procurement Intelligence · Instant Answers</div></div>
+    </div>
+    <button class="chat-close" onclick="toggleChat()">x</button>
   </div>
   <div class="chat-msgs" id="chatMsgs">
-    <div class="chat-msg msg-bot">Welcome. I can answer questions about BK Satpathy's experience, consulting services, and procurement expertise. What would you like to know?</div>
+    <div class="chat-msg msg-bot">Welcome! I can answer detailed questions about procurement transformation, P2P, indirect categories, SAP/Ariba, vendor governance, and how BK can help. What would you like to know?</div>
   </div>
   <div class="chat-sugs" id="chatSugs">
-    <button class="chat-sug" onclick="askQ(this)">What consulting services does BK offer?</button>
-    <button class="chat-sug" onclick="askQ(this)">Is BK available for executive roles?</button>
-    <button class="chat-sug" onclick="askQ(this)">What procurement categories does BK specialise in?</button>
-    <button class="chat-sug" onclick="askQ(this)">How can BK help with SAP/Ariba?</button>
-    <button class="chat-sug" onclick="askQ(this)">How to get in touch with BK?</button>
+    <button class="chat-sug" onclick="askQ(this)">What is P2P transformation?</button>
+    <button class="chat-sug" onclick="askQ(this)">How much can I save on indirect spend?</button>
+    <button class="chat-sug" onclick="askQ(this)">How does SAP Ariba help procurement?</button>
+    <button class="chat-sug" onclick="askQ(this)">What is GBS in procurement?</button>
+    <button class="chat-sug" onclick="askQ(this)">What is BK's consulting budget range?</button>
+    <button class="chat-sug" onclick="askQ(this)">What is maverick spend?</button>
   </div>
   <div class="chat-inp-row">
-    <input class="chat-inp" id="chatIn" placeholder="Ask anything..." onkeydown="if(event.key==='Enter')sendChat()">
-    <button class="chat-send" onclick="sendChat()">→</button>
+    <input class="chat-inp" id="chatIn" placeholder="Ask about procurement, consulting..." onkeydown="if(event.key==='Enter')sendChat()">
+    <button class="chat-send" onclick="sendChat()">Send</button>
   </div>
 </div>
-<button class="chat-btn" onclick="toggleChat()" title="Ask about BK Satpathy">💡</button>
+<button class="chat-btn" onclick="toggleChat()" title="Ask BK about procurement">
+  <span style="font-family:'Cormorant Garamond',serif;font-size:17px;font-weight:600;color:white;line-height:1;letter-spacing:-.01em;">BK</span>
+</button>
 </div>
 <script>
-const QA={
-  "consulting":"BK offers 6 consulting services: P2P Transformation, Indirect Procurement Strategy, SAP/Ariba Advisory, GBS Setup, Strategic Sourcing, and Commercial Governance. <a href='consulting.html' style='color:var(--rose)'>See details →</a>",
-  "executive":"BK is immediately available for CPO, VP Procurement, Head of Procurement, and GBS Leader roles in India Metro, UAE, Singapore, and UK. <a href='contact.html' style='color:var(--rose)'>Get in touch →</a>",
-  "categories":"BK specialises in: Retail Assets (fixtures, VM, signage), Marketing & POSM (agencies, BTL/ATL, media), Telecom Infrastructure, Admin & Corporate, Facility Management, and IT procurement.",
-  "sap":"BK has hands-on SAP MM, SRM, Ariba, and RMS implementation experience — delivering 30% P2P cycle time reduction and 100% audit readiness at Xiaomi India.",
-  "ariba":"BK has hands-on SAP MM, SRM, Ariba, and RMS implementation — 30% cycle time reduction and 100% audit readiness achieved at Xiaomi India.",
-  "touch":"Reach BK at <a href='mailto:bksatpathy@live.in' style='color:var(--rose)'>bksatpathy@live.in</a>, call +91 9818293848, or use the <a href='contact.html' style='color:var(--rose)'>contact form →</a>",
-  "contact":"Reach BK at <a href='mailto:bksatpathy@live.in' style='color:var(--rose)'>bksatpathy@live.in</a>, call +91 9818293848, or use the <a href='contact.html' style='color:var(--rose)'>contact form →</a>",
-  "cost":"BK delivered 20–50% YoY cost reduction — ₹600–1,200Cr+ in annualised savings through e-auctions, vendor consolidation, and category optimisation.",
-  "vendor":"BK has a network of 200+ pre-qualified vendors across retail assets, marketing, IT, FM, and telecom categories. <a href='contact.html' style='color:var(--rose)'>Connect to the network →</a>",
-  "default":"Thank you for your question. For detailed answers, please <a href='contact.html' style='color:var(--rose)'>get in touch directly</a> or connect on <a href='https://www.linkedin.com/in/bksatpathy' target='_blank' style='color:var(--rose)'>LinkedIn</a>. BK responds within 24 hours."
+var QA={
+"who is bk":"<strong>Barada Kanta (BK) Satpathy</strong> is a Procurement Transformation Leader and Independent Consultant with 19+ years of experience governing Rs.12Bn+ enterprise spend portfolios.<br><br>He delivered 20-50% cost reduction and led SAP MM + RMS digital transformation at Xiaomi India. Available for CPO/VP roles and consulting globally.<br><br>Based in Bengaluru. Open to India, UAE, Singapore, UK.<br><a href=\'about.html\' style=\'color:var(--rose)\'>Full profile</a> | <a href=\'contact.html\' style=\'color:var(--rose)\'>Get in touch</a>",
+"p2p":"<strong>Procure-to-Pay (P2P) Transformation</strong> redesigns your end-to-end procurement workflow from purchase requisition to supplier payment.<br><br>The 7 stages: Need Identification > Requisition > Approval > PO > Goods Receipt > Invoice Matching > Payment<br><br>BK delivered: 30% P2P cycle time reduction and 100% audit readiness at Xiaomi India.<br><br>Common P2P problems BK solves: long cycle times, manual approvals, poor spend visibility, audit gaps, and maverick buying.<br><a href=\'consulting.html#p2p\' style=\'color:var(--rose)\'>P2P consulting service</a>",
+"savings":"<strong>Typical savings by engagement type:</strong><br><br>P2P Transformation: 15-30% process cost reduction<br>Strategic Sourcing / E-auctions: 10-25% on category spend<br>Vendor Rationalisation: 8-15% through consolidation<br>Full Procurement Overhaul: 20-50% combined savings<br><br>BK delivered Rs.600-1200Cr+ in annualised savings at Xiaomi India.<br><br>Use the ROI Estimator on the <a href=\'index.html\' style=\'color:var(--rose)\'>homepage</a> to calculate your savings.",
+"ariba":"<strong>SAP Ariba</strong> is the market-leading cloud procurement platform covering:<br><br>Ariba Sourcing - RFQ, RFP, e-auctions, contract management<br>Ariba Buying - purchase orders, catalogue management, approvals<br>Ariba Invoice - invoice matching, payment processing<br>Ariba Discovery - supplier network and onboarding<br><br><strong>BK insight:</strong> Ariba is a change management project with technology enablers. Most failed implementations neglect user adoption.<br><a href=\'consulting.html#digital\' style=\'color:var(--rose)\'>Ariba advisory</a>",
+"sap":"<strong>BK has hands-on SAP experience with:</strong><br><br>SAP MM (Materials Management) - purchasing, inventory, vendor management<br>SAP SRM (Supplier Relationship Management) - strategic sourcing<br>SAP Ariba - cloud-based e-procurement and P2P platform<br>SAP RMS - retail management system integration<br><br>BK led implementation at Xiaomi India: 30% cycle time reduction, 100% audit readiness.<br><a href=\'consulting.html#digital\' style=\'color:var(--rose)\'>SAP/Ariba advisory</a>",
+"gbs":"<strong>GBS (Global Business Services)</strong> is a shared services model where procurement is centralised into a single delivery centre reducing cost, improving quality, and enabling scale.<br><br>What BK designs in GBS:<br>Operating model and governance framework<br>Team structure and competency framework<br>SLA definitions and KPI architecture<br>SAP/Ariba integration<br>Transition and change management plan<br><a href=\'consulting.html#gbs\' style=\'color:var(--rose)\'>GBS setup consulting</a>",
+"maverick":"<strong>Maverick spend</strong> (rogue spending) is purchasing outside the approved procurement process - bypassing approved vendors, price agreements, or approval workflows.<br><br>It typically costs 12-25% more than contracted rates and creates compliance risks.<br><br>BK fixes maverick spend with: clear procurement policy, approved vendor lists, automated approval workflows in SAP/Ariba, real-time spend dashboards, and compliance training.<br><a href=\'consulting.html#governance\' style=\'color:var(--rose)\'>Governance services</a>",
+"e-auction":"<strong>E-auctions</strong> (reverse auctions) are online competitive bidding events where suppliers compete to win your business by lowering prices in real time.<br><br>Typical savings: 10-30% below current contract prices.<br><br>BK ran structured e-auction programmes at Xiaomi India across 50+ tier-1 vendor relationships, delivering 20-50% YoY cost optimisation.<br><a href=\'consulting.html#sourcing\' style=\'color:var(--rose)\'>Strategic sourcing services</a>",
+"indirect":"<strong>Indirect Procurement</strong> covers goods and services that support operations but do not go into your product - marketing, IT, admin, facilities, and retail assets.<br><br>Most organisations lose 15-25% of indirect spend to maverick buying.<br><br>BK's expertise spans: Retail Assets, Marketing and POSM, Telecom Infra, Admin and Office, Facility Management, IT and Technology.<br><a href=\'consulting.html#indirect\' style=\'color:var(--rose)\'>Indirect procurement services</a>",
+"category":"<strong>Category Management</strong> groups similar spend items and develops a strategic sourcing approach for each category rather than buying ad hoc.<br><br>A good category strategy includes: spend analysis, market intelligence, supplier segmentation, sourcing approach, contract framework, and KPI tracking.<br><br>BK manages 6 indirect categories: Retail Assets, Marketing, Telecom Infra, Admin, Facility Management, IT.<br><a href=\'consulting.html#indirect\' style=\'color:var(--rose)\'>Category management services</a>",
+"vendor":"<strong>Vendor / Supplier Management</strong> is the end-to-end process of selecting, onboarding, contracting, evaluating, and developing suppliers.<br><br>BK manages 200+ pre-qualified vendors across retail assets, marketing, IT, FM, and telecom categories.<br><br>Key elements: vendor segmentation, supplier scorecards, rate card standardisation, contract frameworks, and rationalisation to a preferred vendor base.<br><a href=\'contact.html\' style=\'color:var(--rose)\'>Access BK vendor network</a>",
+"budget":"<strong>BK's consulting engagement budget range:</strong><br><br>Rapid Diagnostic (2-4 weeks): Rs.6L - Rs.15L<br>Category Strategy (4-8 weeks): Rs.15L - Rs.50L<br>P2P Transformation (3-6 months): Rs.50L - Rs.3Cr<br>GBS Setup (6-12 months): Rs.3Cr - Rs.12Cr<br>Monthly Retainer: From Rs.5L per month<br><br>All engagements scoped to your specific needs.<br><a href=\'contact.html\' style=\'color:var(--rose)\'>Get a proposal</a>",
+"how":"<strong>Working with BK - 3 simple steps:</strong><br><br>Step 01: Discovery Call (30 mins, free) - Understand your challenge, current state, and objectives.<br><br>Step 02: Diagnostic and Proposal - BK conducts spend diagnostic and presents a tailored proposal with scope, timeline, and expected ROI.<br><br>Step 03: Delivery and Outcomes - Structured engagement with weekly check-ins, milestone reporting, and final deliverable pack - SOPs, dashboards, governance frameworks your team can own.<br><a href=\'contact.html\' style=\'color:var(--rose)\'>Book a discovery call</a>",
+"esg":"<strong>ESG in Procurement</strong> integrates Environmental, Social, and Governance criteria into sourcing decisions.<br><br>Environmental: Green vendor criteria, carbon-aware sourcing<br>Social: Ethical labour standards, fair trade, community impact<br>Governance: Anti-bribery, transparency, regulatory compliance<br><br>BK aligns ESG procurement frameworks with CIPS ethical procurement standards and designs supplier ESG scorecards for audit-ready reporting.<br><a href=\'consulting.html\' style=\'color:var(--rose)\'>ESG procurement advisory</a>",
+"contact":"Reach BK through:<br><br>Email: <a href=\'mailto:bksatpathy@live.in\' style=\'color:var(--rose)\'>bksatpathy@live.in</a><br>Phone: <a href=\'tel:+919818293848\' style=\'color:var(--rose)\'>+91 9818293848</a><br>LinkedIn: <a href=\'https://www.linkedin.com/in/bksatpathy\' target=\'_blank\' style=\'color:var(--rose)\'>linkedin.com/in/bksatpathy</a><br>Form: <a href=\'contact.html\' style=\'color:var(--rose)\'>Contact page</a><br><br>BK responds within 24 hours. Immediate availability.",
+"available":"BK is immediately available for:<br><br>Executive Roles: CPO, VP Procurement, Head of Procurement, GBS Leader - India Metro, UAE, Singapore, UK<br><br>Consulting: P2P transformation, indirect procurement, SAP/Ariba advisory, GBS setup - globally<br><br>Start: Discovery call within 48 hours.<br><a href=\'contact.html\' style=\'color:var(--rose)\'>Get in touch</a>",
+"certification":"BK professional certifications:<br><br>Global Procurement and Sourcing - Rutgers University (lead credential)<br>Ethical Procurement and Supply Chain - CIPS-aligned<br>Financial Accounting Fundamentals<br>Accounting for Decision-Making<br>Marketing Management - IIM<br>Great People Manager - Xiaomi India<br><a href=\'skills.html\' style=\'color:var(--rose)\'>Full skills and certifications</a>",
+"retail":"<strong>Retail Assets Procurement</strong> covers: Shop-in-Shop fixtures, Visual Merchandising materials, Signage, Store fit-outs, Display units.<br><br>BK governed India largest consumer electronics SIS rollout including a Guinness World Record store launch at Xiaomi India.<br><a href=\'experience.html\' style=\'color:var(--rose)\'>See full experience</a>",
+"marketing":"<strong>Marketing Procurement</strong> manages: Agency management (creative, media, PR, digital), POSM, BTL activations and events, ATL media buying, Promotional materials.<br><br>BK governed Rs.2-3Bn annual marketing spend at Xiaomi India, delivering 20% cost optimisation annually through rate card governance.<br><a href=\'consulting.html#indirect\' style=\'color:var(--rose)\'>Marketing procurement advisory</a>",
+"facility":"<strong>Facility Management Procurement</strong> covers: Housekeeping and cleaning, Security and surveillance, Pest control, AMC contracts, Electrical and HVAC maintenance, Canteen management.<br><br>FM is one of the highest maverick-spend categories. BK implements structured vendor governance and rate card frameworks to control it.<br><a href=\'consulting.html#indirect\' style=\'color:var(--rose)\'>FM procurement services</a>",
+"telecom":"<strong>Telecom Infrastructure Procurement</strong> covers: 2G/4G/5G passive infrastructure, Network equipment, Cabling, Site maintenance, Power systems.<br><br>BK gained deep telecom procurement experience at MTS Sistema Shyam, delivering 30% cost reduction through strategic sourcing.<br><a href=\'experience.html\' style=\'color:var(--rose)\'>See career experience</a>"
 };
+
+function getAnswer(q){
+  var l=q.toLowerCase();
+  if(l.includes("who")&&(l.includes("bk")||l.includes("satpathy"))) return QA["who is bk"];
+  if(l.includes("experience")||l.includes("career")||l.includes("background")) return QA["who is bk"];
+  if(l.includes("p2p")||l.includes("procure-to-pay")||l.includes("procure to pay")) return QA["p2p"];
+  if(l.includes("saving")||l.includes("how much")||l.includes("roi")||l.includes("cost reduc")) return QA["savings"];
+  if(l.includes("ariba")) return QA["ariba"];
+  if(l.includes("sap")||l.includes("erp")) return QA["sap"];
+  if(l.includes("gbs")||l.includes("global business")||l.includes("shared service")) return QA["gbs"];
+  if(l.includes("maverick")||l.includes("rogue")||l.includes("unauthorized")) return QA["maverick"];
+  if(l.includes("auction")||l.includes("e-auction")||l.includes("reverse bid")) return QA["e-auction"];
+  if(l.includes("indirect")) return QA["indirect"];
+  if(l.includes("category")||l.includes("categories")) return QA["category"];
+  if(l.includes("vendor")||l.includes("supplier")||l.includes("network")) return QA["vendor"];
+  if(l.includes("budget")||l.includes("price")||l.includes("fee")||l.includes("cost")||l.includes("lakh")||l.includes("crore")) return QA["budget"];
+  if(l.includes("how")||l.includes("work")||l.includes("process")||l.includes("step")) return QA["how"];
+  if(l.includes("esg")||l.includes("sustain")||l.includes("green")||l.includes("ethical")) return QA["esg"];
+  if(l.includes("contact")||l.includes("reach")||l.includes("email")||l.includes("phone")) return QA["contact"];
+  if(l.includes("available")||l.includes("hire")||l.includes("role")||l.includes("job")) return QA["available"];
+  if(l.includes("certif")||l.includes("qualif")||l.includes("rutgers")||l.includes("cips")) return QA["certification"];
+  if(l.includes("retail")||l.includes("fixture")||l.includes("sis")||l.includes("shop")) return QA["retail"];
+  if(l.includes("marketing")||l.includes("posm")||l.includes("agency")||l.includes("btl")) return QA["marketing"];
+  if(l.includes("facilit")||l.includes("housekeep")||l.includes("security")||l.includes("amc")) return QA["facility"];
+  if(l.includes("telecom")||l.includes("infra")||l.includes("tower")||l.includes("network")) return QA["telecom"];
+  return "I can answer questions about procurement transformation, P2P, SAP/Ariba, indirect categories, GBS, vendor management, ESG, consulting services, and how to work with BK.<br><br>Try asking: <em>What is P2P transformation?</em> or <em>How much does consulting cost?</em><br><br>Or contact BK directly: <a href=\'contact.html\' style=\'color:var(--rose)\'>contact form</a> | <a href=\'mailto:bksatpathy@live.in\' style=\'color:var(--rose)\'>bksatpathy@live.in</a>";
+}
+
 function toggleChat(){document.getElementById("chatBox").classList.toggle("open");}
-function addMsg(t,u){const d=document.createElement("div");d.className="chat-msg "+(u?"msg-user":"msg-bot");d.innerHTML=t;document.getElementById("chatMsgs").appendChild(d);document.getElementById("chatMsgs").scrollTop=9999;}
-function getA(q){const l=q.toLowerCase();for(const[k,v] of Object.entries(QA)){if(l.includes(k))return v;}return QA.default;}
-function askQ(b){const q=b.textContent;document.getElementById("chatSugs").style.display="none";addMsg(q,true);setTimeout(()=>addMsg(getA(q),false),600);}
-function sendChat(){const i=document.getElementById("chatIn");const q=i.value.trim();if(!q)return;document.getElementById("chatSugs").style.display="none";addMsg(q,true);i.value="";setTimeout(()=>addMsg(getA(q),false),600);}
+function addMsg(t,u){var d=document.createElement("div");d.className="chat-msg "+(u?"msg-user":"msg-bot");d.innerHTML=t;var m=document.getElementById("chatMsgs");m.appendChild(d);m.scrollTop=9999;}
+function askQ(b){var q=b.textContent.trim();document.getElementById("chatSugs").style.display="none";addMsg(q,true);setTimeout(function(){addMsg(getAnswer(q),false);},500);}
+function sendChat(){var i=document.getElementById("chatIn");var q=i.value.trim();if(!q)return;document.getElementById("chatSugs").style.display="none";addMsg(q,true);i.value="";setTimeout(function(){addMsg(getAnswer(q),false);},500);}
 </script>
 <script>
 const mn=document.getElementById("mainnav");
