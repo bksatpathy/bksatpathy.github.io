@@ -1,0 +1,12 @@
+{
+  "name": "ayushman-ai-proxy",
+  "version": "1.0.0",
+  "description": "Secure AI proxy for Ayushman World chatbot",
+  "main": "proxy_server.js",
+  "scripts": {
+    "start": "node proxy_server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
